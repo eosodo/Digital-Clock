@@ -22,7 +22,7 @@ function updateClock(){
     let ampm = "AM";
 
     const date1 = new Date(y,mn,d);
-    const date2 = new Date(2023,2,3);
+    const date2 = new Date(2024,12,31);
     let duedays = getDifferenceInDays(date1,date2)
 
     if(h > 12){        
